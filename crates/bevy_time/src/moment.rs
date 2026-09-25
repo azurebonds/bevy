@@ -6,8 +6,6 @@ use core::{
     time::Duration,
 };
 
-#[cfg(feature = "bevy_reflect")]
-use bevy_reflect::Reflect;
 use crate::Time;
 
 /// A measurement of a point in time from some [`Time<C>`](crate::Time).
